@@ -4,7 +4,7 @@ var http = require('http');
 // 2. http 모듈로 서버를 생성한다.
 //    아래와 같이 작성하면 서버를 생성한 후, 사용자로 부터 http 요청이 들어오면 function 블럭내부의 코드를 실행해서 응답한다.
 var server = http.createServer(function(request,response){ 
-//git test
+//git test 2
     response.writeHead(200,{'Content-Type':'text/html'});
     response.end('Hello node.js!!');
 
